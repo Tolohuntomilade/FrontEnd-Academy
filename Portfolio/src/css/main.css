@@ -95,6 +95,23 @@ li:hover{
     line-height: 30px;
     text-align: center;
 }
+.sticky {
+    position: fixed;
+    top:400px;
+    right:70px;
+    width: 50px;
+    border-radius: 60%;
+}
+.green-2{
+    padding:7px;
+    background-color:rgb(86, 245, 86);
+   border-radius: 50%;
+   border:none;
+   position:fixed;
+   top:450px;
+  right:65px;
+   margin: 0 3px;  
+}
 .content-2{
     margin: 10px -25px;
     line-height: 25px;
@@ -172,21 +189,14 @@ background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 50px 0;
     border: 1px solid #999696;
     border-left: 0;
     border-right: 0;
-  
 }
 .title-2{
     padding: 20px;
     color: #999696;
-}
-.image-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .details-1{
     text-align: center;
@@ -203,6 +213,13 @@ height: 200px;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .submit-3{
     display: none;
     padding: 20px 40px;
@@ -215,10 +232,10 @@ background-size: cover;
     font-size: 17px;
     cursor: pointer;
 }
-.pricing-section{
+/* .pricing-section{
     grid-area: pricing-section;
     background-color: blueviolet;
-}
+} */
 
 .contact-section{
     grid-area: contact-section;
@@ -344,6 +361,24 @@ textarea{
         margin-top: 20px;
         font-size: 17px;
         cursor: pointer;
+    }
+    .title-2{
+        padding: 40px;
+        color: #999696;
+        font-size: 30px;
+    }
+    .box{
+    width: 470px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .container-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
     }
 }
 @media (min-width:1200px){
