@@ -318,7 +318,6 @@ textarea{
         padding: 35px 30px;
         color: #ffff;
     }
-  
 }
 @media (min-width:600px){
     form{
@@ -340,7 +339,6 @@ textarea{
         border: 1px solid #999696;
         border-radius: 5px;
     }
-
 }
 @media (min-width:1000px){
    
