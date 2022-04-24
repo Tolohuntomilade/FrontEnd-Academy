@@ -10,17 +10,19 @@
     display:grid;
     grid-template-areas: 
     'home-section '
+    'waves-section'
     'services-section'
     'portfolio-section'
-    'pricing-section'
+    /* 'pricing-section' */
     'contact-section';
     grid-column: repeat(1,1fr);
 }
 .home-section{
     grid-area: home-section;
     background-color:rgb(104, 28, 211);
-    padding: 25px 40px;
+    padding: 25px 10px;
     color: #ffff;
+    /* padding-bottom: 200px; */
     
 }
 .navbar{
@@ -99,8 +101,12 @@ li:hover{
     position: fixed;
     top:400px;
     right:70px;
-    width: 50px;
-    border-radius: 60%;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .green-2{
     padding:7px;
@@ -108,8 +114,8 @@ li:hover{
    border-radius: 50%;
    border:none;
    position:fixed;
-   top:450px;
-  right:65px;
+   top:457px;
+  right:75px;
    margin: 0 3px;  
 }
 .content-2{
@@ -137,6 +143,33 @@ h4, .link2{
     border: 0;
     font-size: 17px;
     cursor: pointer;
+}
+.waves-section{
+    grid-area: waves-section;
+    display: flex;
+    flex-direction: column;
+    margin-top:-180px;
+    transform: 0.999;
+    background-color:red;
+    height: 0px;
+ 
+}
+
+.wave-1{
+    position: relative;
+    transform: 0.99999;
+    margin-top: -100px;
+}
+.wave-2{
+    position: relative;
+    transform: 0.99999;
+    margin-top: -450px;
+}
+.wave-3{
+    position: relative;
+    transform: 0.99999;
+    margin-top: -40px;
+     
 }
 .services-section{
     background-color: #ffff;
@@ -264,6 +297,7 @@ input:active{
 }
 .email-plan{
     text-align: left;
+    margin-left: -20px;
 }
 .title-3{
     text-align: center;
