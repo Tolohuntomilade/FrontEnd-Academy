@@ -1,5 +1,6 @@
 body{
     font-family: 'Barlow Semi Condensed'!important;
+    position: relative;
 }
 .navbar{
     background-color:white !important;
@@ -16,6 +17,10 @@ body{
     font-weight:500!important;
     margin-right: 25px;
     letter-spacing: 1px;
+}
+a:hover{
+color: blue !important;
+text-decoration: none !important;
 }
 .section-1{
 margin-top: 200px !important;
@@ -52,7 +57,6 @@ background-color: #fafbfd;
     word-spacing: 1px !important;
     font-weight:bolder !important;
     letter-spacing: 1px !important;
-
 }
 .bi-apple{
   margin-top: -5px;
@@ -87,12 +91,11 @@ background-color: #fafbfd;
 }
 h5{
     font-family: 'Barlow Condensed';
-    font-size: 18px !important;
-    color: #787b7e;
     letter-spacing: 1px !important;
     word-spacing: 1px !important;
-    font-weight:bold !important;
     margin-bottom: 17px !important;
+    font-size: 18px !important;
+    font-weight:bold !important;
 }
 .tab{
     border-radius:50%;
@@ -100,7 +103,6 @@ h5{
     margin-right: 25px;
     border: none;
 }
-
 .new{
     margin-top: 80px;
     margin-left: 20px;
@@ -109,25 +111,26 @@ h5{
     position: relative;
     top:-80px;
     right: -20px;
-    
 }
 .section-3{
     margin: 0;
     padding: 250px 0;
     background-color: white;
     text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    row-gap: -200px !important;
 }
 .head{
     margin-bottom: 100px !important;
 }
 .team{
-    margin-right: 90px;
     margin-bottom: 100px !important;
     
     
 }
 .member{
-    border-radius: 50%;
     height: 150px;
 }
 .adds{
@@ -140,7 +143,7 @@ h5{
 }
 .page-title-4{
     font-family:'Barlow', sans-serif;
-    font-size:1.8rem !important;
+    font-size:1.5rem !important;
     font-weight:bolder!important;
     text-emphasis: 200px !important;
     letter-spacing: 2px;
@@ -153,7 +156,7 @@ h5{
    
 }
 .section-5{
-    padding: 400px 0px;
+    padding: 200px 0px;
 }
 .promo-container{
     line-height: 20px !important;
@@ -171,13 +174,22 @@ h5{
     row-gap: 30px !important;
 }
 .see{
-    margin-left: -30px !important;
+    margin-left: -1px !important;
+}
+.box-1{
+    text-align: right;
+    padding: 50px;
+    margin-right: -20px !important;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    row-gap: 30px !important;
 }
 .box-2{
     text-align: right;
     padding: 50px;
     margin-right: -20px !important;
-    background-color: white;
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -188,7 +200,6 @@ h5{
     text-align: left;
     padding: 50px;
     margin-right: -20px !important;
-    background-color: white;
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -200,14 +211,13 @@ h5{
     font-size:1.25rem !important;
     font-weight:bolder!important;
     text-emphasis: 200px !important;
-    letter-spacing: 2px;
     margin-bottom: 7px !important;
 }
 .info{
     margin-right: 60px !important;
 }
 .dett{
-    margin-left: 25px !important; 
+    margin-left: 60px !important; 
 }
 .page-title-5{
     font-family:'Barlow', sans-serif;
@@ -226,11 +236,6 @@ h5{
 .face{
     background-color: white;
 }
-
-
-/* .cont{
-    margin-top: 30px ;
-} */
 a{
     text-decoration: none;
     cursor: pointer;
@@ -240,10 +245,7 @@ a:hover{
 }
 @media (min-width:0px) and (max-width:500px){
 body{
-   margin: 0 12px !important;
-   
-
-  
+   margin: 0 12px !important; 
 }
 .second-img{
     display: none;
@@ -251,24 +253,19 @@ body{
 }
 @media (min-width:501px) and (max-width:999px){
     body{
-        margin: 0 20px !important;
-       
-     }
+        margin: 0 20px !important;   
+    }
     .second-img{
 display: none;
     }
-   
-
 }
 @media(min-width:1000px){
     body{
         margin: 0 100px !important;
         padding: 10px 0;
-       
      } 
      .navbar-brand{
         font-size: 33px !important;
-    }
-   
+    }  
 }
 
