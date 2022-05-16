@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>SIMULTANEOUS EQUATION</h1>
+            <div class="first-row ">
+                <p>First Equation</p>
+                <div class="boxes">
+                    <div class="x-cof"><input type="numbers" placeholder="x-coefficient" id="firstx"></div>
+                    <div class="y-cof"><input type="numbers" placeholder="y-coefficient"id="firsty"></div>
+                    <div class="RHS"><input type="numbers" placeholder="Right-HandSide"id="firstrhs"></div>
+                </div>
+            </div>
+     
+            <div class="second-row">
+                 <p>Second Equation</p>
+                 <div class="boxes">
+                     <div class="x-cof"><input type="numbers" placeholder="x-coefficient"id="secondx"></div>
+                     <div class="y-cof"><input type="numbers" placeholder="y-coefficient" id="secondy"></div>
+                     <div class="RHS"><input type="numbers" placeholder="Right-HandSide" id="secondrhs"></div>
+                 </div>
+             </div>
+             <div class="result">
+                 <p class="end">Result</p>
+                 <p class="end1">Value for x and y are shown respectively</p>
+                 <div class="boxes">
+                     <div class="x-result" id="result1"> 
+                     </div>
+                 </div>
+            </div>
+            <div class="other">
+                <p class="end">This application can only solve simple linear simultanoues equations</p>
+            </div>
+        </div>
+       
+    </div>
+
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
