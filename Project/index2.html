@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>KitHub Clone</title>
+    <link rel="stylesheet" type="text/css" href="./styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- first-section -->
+<section class= "first-section mb-4 pt-md-2">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 mt-1 pb-md-5 py-lg-5 bg-black">
+        <div class="container">
+            <img class="navbar-brand img-fluid logo" src="./Assets/kithub-logo (1).svg"/>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarScroll">
+                <ul class="navbar-nav hovered-nav mx-auto mb-2 mb-lg-0" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown px-20px px-lg-0 py-2 py-lg-0">
+                        <a class="nav-link dropdown-toggle ld me-3" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">Landings</a>
+                        <div class="dropdown-menu dropdown-menu-md shadow-lg px-0 px-lg-1 py-0 py-lg-2" aria-labelledby="landingPages" style="min-width: 400px;">
+                            <div class="row">
+                                <div class="col-4">
+                                    <figure class="mb-0">
+                                        <img class="w-100" src="./Assets/nav-img.jpg" alt="explore demos"/>
+                                    </figure>
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <a class="dropdown-item mb-10px" href="#">Single Course</a>
+                                            <a class="dropdown-item mb-10px" href="#">Creative Agency</a>
+                                            <a class="dropdown-item mb-10px" href="#">Coworking</a>
+                                            <a class="dropdown-item mb-10px mb-lg-0" href="#">SaaS</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a class="dropdown-item mb-10px" href="#">Marketing</a>
+                                            <a class="dropdown-item mb-10px" href="#">Portfolio</a>
+                                            <a class="dropdown-item mb-10px mb-lg-0" href="#">Event</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown px-20px px-lg-0 py-2 py-lg-0">
+                        <a class="nav-link dropdown-toggle text-dark me-3" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu dropdown-menu-md shadow-lg px-0 px-lg-1 py-0 py-lg-2" style="min-width: 520px;">
+                            <div class="row">
+                                <div class="col-3 col-lg-3 col-md">
+                                    <h6 class="dropdown-header mt-1 mt-lg-0 mb-10px">Company</h6>
+                                    <a class="dropdown-item mb-10px" href="#">About Us</a>
+                                    <a class="dropdown-item mb-10px" href="#">Pricing</a>
+                                    <a class="dropdown-item mb-10px" href="#">Contact</a>
+                                    <a class="dropdown-item mb-10px" href="#">Help Centre</a>
+                                    <a class="dropdown-item mb-10px" href="#">Terms</a>
+                                    <a class="dropdown-item mb-10px" href="#">FAQ</a>
+                                </div>
+                                <div class="col-3 col-lg-3 col-md">
+                                    <h6 class="dropdown-header mt-1 mt-lg-0 mb-10px">Career</h6>
+                                    <a class="dropdown-item mb-10px" href="#">Opening Jobs</a>
+                                    <a class="dropdown-item mb-10px" href="#">Jobs details</a>
+                                    <h6 class="dropdown-header mt-1 mt-lg-0 mb-10px">Blog</h6>
+                                    <a class="dropdown-item mb-10px" href="#">Grids</a>
+                                    <a class="dropdown-item mb-10px" href="#">Details</a>
+                                    <a class="dropdown-item mb-10px" href="#">Search Result</a>
+                                </div>
+                                <div class="col-3 col-sm-3 col-md">
+                                    <h6 class="dropdown-header mt-1 mt-lg-0 mb-10px">Portfolio</h6>
+                                    <a class="dropdown-item mb-10px" href="#">Grids</a>
+                                    <a class="dropdown-item mb-10px" href="#">Masonry</a>
+                                    <a class="dropdown-item mb-10px" href="#">Case study</a>
+                                </div>
+                                <div class="col-3 col-sm-3 col-md">
+                                    <h6 class="dropdown-header mt-1 mt-lg-0 mb-10px">Other Pages</h6>
+                                    <a class="dropdown-item mb-10px" href="#">Error 404</a>
+                                    <a class="dropdown-item mb-10px" href="#">Error 500</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown px-20px px-lg-0 py-2 py-lg-0">
+                        <a class="nav-link dropdown-toggle text-dark me-3" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                        <ul class="dropdown-menu dropdown-menu-md shadow-lg px-0 px-lg-1 py-0 py-lg-2" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item mb-10px mb-lg-0" href="#">Login</a></li>
+                            <li><a class="dropdown-item mb-10px mb-lg-0" href="#">Register</a></li>
+                            <li><a class="dropdown-item mb-10px mb-lg-0" href="#">Reset Password</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-20px px-lg-0 py-2 py-lg-0">
+                        <a class="nav-link dropdown-toggle text-dark me-3" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentation</a>
+                        <div class="dropdown-menu dropdown-menu-md shadow-lg px-0 px-lg-1 py-0 py-lg-2" aria-labelledby="documentation">
+                            <a class="dropdown-item group-item d-flex align-items-center mb-10px mb-lg-0" href="#">
+                                <img width="26" src="./Assets/SVGs/file-earmark-code.svg"/>
+                                <div class="ms-3 flex-grow-1">
+                                    <h6 class="components dropdown-header fw-medium lh-base p-0">Documentation</h6>
+                                    <p class="text-gray-600 lh-2 mb-0">Developer Guides</p>
+                                </div>
+                                <div class="hover-icon ps-4">
+                                    <img width="10" height="16" src="./Assets/SVGs/chevron-right.svg"/>
+                                </div>
+                            </a>
+                            <a class="dropdown-item group-item d-flex align-items-center mb-10px mb-lg-0" href="#">
+                                <img width="26" src="./Assets/SVGs/file-earmark-text.svg"/>
+                                <div class="ms-3 flex-grow-1">
+                                    <h6 class="components dropdown-header fw-medium lh-base p-0">Components</h6>
+                                    <p class="text-gray-600 lh-2 mb-0">List of components</p>
+                                </div>
+                                <div class="hover-icon ps-4">
+                                    <img width="10" height="16" src="./Assets/SVGs/chevron-right.svg"/>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn buy text-white" type="submit">Buy Now</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+    <!-- first section -->
+            <div class="container py-6 pt-md-1 pb-md-5 py-lg-5">
+                <div class="row justify-content-center justify-content-lg-between align-items-lg-center">
+                    <div class="col-10 col-md-12 col-lg-8 text-center text-lg-start ">
+                        <h1 class="display-4 fw-bold mb-4 mb-md-4 start">
+                            Start your
+                            <span class="first">VUE</span> <br>
+                            Course with pro.
+                        </h1>
+                        <h6 class="fw-bold mb-1 d-none d-lg-block">By Alexander Johnson</h6>
+                        <h5 class="fw-normal text-secondary mt-2 mt-md-3">Author & Senior Software Developer at GitLab</h5>
+                        <div class="row mt-4 mt-md-5">
+                            <div class="col-12">
+                                <a href="http://" class="btn btn-primary btn-shadow-primary-1 new">
+                                    Start 7 days free
+                                </a>
+                                <a href="http://" class="btn btn-link text-decoration-none text-secondary cont">
+                                    <span class="badge rounded-circle new2 p-2 badge-lg badge-rounded-circle bg-primary-1 text-primary me-2 ms-2 mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play-circle"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                                    </span>
+                                    Who am I
+                                </a>
+                            </div>
+                            <div class="col-8 position-relative">
+                                <img class="position-absolute d-none d-lg-inline-block img-fluid arrow" src="http://ballkanlab.com/themes/kithub/v1.0/assets/img/long-arrow-pointer.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-7 col-lg-4 position-relative mt-5 mt-lg-0 box">
+                        <img class="w-100 img-fluid" src="http://ballkanlab.com/themes/kithub/v1.0/assets/img/landings/vue_01.png" alt="" srcset="">
+                        <div class="card">
+                            <div class="card-body card-1 px-3 py-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1">
+                                        <h6 class="fw-normal text-dark mb-2 mt-2">Time to complete</h6>
+                                        <h5 class="fw-bold text-primary mb-0">25 Hours</h5>
+                                    </div>
+                                    <div class="mt-2 me-1 alarm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="rgb(15, 61, 201)" class="bi bi-alarm" viewBox="0 0 16 16">
+                                            <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                                            <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body card-3 px-3 py-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1">
+                                        <h6 class="fw-normal text-dark mb-2 mt-2">Employed</h6>
+                                        <h5 class="fw-bold text-primary mb-0">1200</h5>
+                                    </div>
+                                    <div class="mt-2 me-1 alarm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="rgb(15, 61, 201)" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body card-2 px-3 py-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1">
+                                        <h6 class="text-dark fw-normal fs-2 mb-3 mt-2">Happy Students</h6>
+                                        <h5 class="fw-bold text-primary fs-2 mb-2">1245</h5>
+                                    </div>
+                                    <div class="mt-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="rgb(15, 61, 201)" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                            <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                                          </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>      
+<!-- end-of-firstsection -->
+
+<!--second-section -->
+<section class="section-3">
+    <div class="container py-4 pt-md-5 pb-md-5 py-lg-5" id="section3">
+        <div class="row d-flex  layout">
+           <div class="col-lg-3 col-md-6 col-sm-12 team shadow-sm py-3 px-3">
+                <button class="comment mb-4">FEATURED COMMENT</button>
+                <p class="text-secondary mt-1 det">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+            
+                <div class="d-flex mt-4">
+                    <img src="./Assets/avatar_01.png" alt="" srcset="" class="member mb-4 rounded-circle">
+                    <div class=" ms-2 mt-2">
+                        <h5 class="text-dark adds" >Alban James</h5>
+                        <h5 class="fw-normal text-secondary add">Junior Developer</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 team shadow-sm py-3 px-3">
+                <button class="comment-1 mb-4">FEATURED COMMENT</button>
+                <p class="text-secondary mt-1 det">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+            
+                <div class="d-flex mt-4">
+                    <img src="./Assets/avatar_02.png" alt="" srcset="" class="member mb-4 rounded-circle">
+                    <div class=" ms-2 mt-2">
+                        <h5 class="text-dark adds" >John Doe</h5>
+                        <h5 class="fw-normal text-secondary add">Junior Developer</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 team shadow-sm py-3 px-3">
+                <button class="comment-2 mb-4">FEATURED COMMENT</button>
+                <p class="text-secondary mt-1 det">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+            
+                <div class="d-flex mt-4">
+                    <img src="./Assets/avatar_03.png" alt="" srcset="" class="member mb-4 rounded-circle">
+                    <div class=" ms-2 mt-2">
+                        <h5 class="text-dark adds" >Andy Mio</h5>
+                        <h5 class="fw-normal text-secondary add">Junior Developer</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 team shadow-sm py-3 px-3">
+                <button class="comment-3 mb-4">FEATURED COMMENT</button>
+                <p class="text-secondary mt-1 det">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+            
+                <div class="d-flex mt-4">
+                    <img src="./Assets/avatar_04.png" alt="" srcset="" class="member mb-4 rounded-circle">
+                    <div class=" ms-2 mt-2">
+                        <h5 class="text-dark adds" >Arina Juos</h5>
+                        <h5 class="fw-normal text-secondary add">Junior Developer</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+<!-- SECOND-SECTION -->
+<!-- section-six -->
+<section class="section-6">
+    <div class="container py-4 pt-md-5 pb-md-5 py-lg-5 sec-6 ">
+        <div class="row">
+            <div class="col-12 position-relative">
+                <div class="square-box">
+                    <img src="./Assets/rectangle37x37.svg" alt="" srcset="" class="position-absolute d-none d-lg-inline-block ">
+                    <img src="./Assets/rectangle17x17.svg" alt="" srcset="" class="position-absolute d-none d-lg-inline-block rect-1">
+                    <img src="./Assets/rectangle37x37.svg" alt="" srcset="" class="position-absolute d-none d-lg-inline-block ">
+                    <img src="./Assets/rectangle17x17.svg" alt="" srcset="" class="position-absolute d-none d-lg-inline-block rect-1">
+                </div>
+
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-10 col-md-8 col-lg-6">
+                        <h1 class="fw-bold mb-6 fs-2 mt-5">Sign Up to stay updated</h1>
+                        <h6 class="mb-4 text-center text-secondary fw-normal mt-3 det-1">
+                            Recive latest updates about course or any deals <br> of my VUE course.
+                        </h6>
+                        <div class="d-flex justify-content-center">
+                            <input type="text" class="input position-relative py-3 px-2" placeholder="Enter your email address">
+                            <button class="btn fs-18 btn-primary arrow-1  d-sm-none d-lg-block "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></button>
+                        </div>
+                        <!-- <div class="row align-items-center">
+                               
+                            </div> -->
+                        <!-- <div class="row justify-content-center d-flex">
+                            <div class="col-10">
+                                
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of section-six -->
+<!--footer -->
+<footer class="footer">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="d-flex gap-2 copyright mt-2 mb-sm-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="106" height="29" viewBox="0 0 106 29">
+                        <g id="Group_304" data-name="Group 304" transform="translate(0.447 0.328)">
+                          <text id="Kithub." transform="translate(19.553 22.672)" fill="#2052eb" font-size="24" font-family="Inter-Bold, Inter" font-weight="700"><tspan x="0" y="0">Kit</tspan><tspan y="0" fill="#222">hub.</tspan></text>
+                          <g id="Group_203" data-name="Group 203">
+                            <path id="Subtraction_1" data-name="Subtraction 1" d="M9,18a9,9,0,1,1,9-9A9.01,9.01,0,0,1,9,18ZM8.788,3.4a5.811,5.811,0,1,0,5.81,5.81A5.817,5.817,0,0,0,8.788,3.4Z" transform="translate(-0.447 5.672)" fill="#2052eb"/>
+                            <circle id="Ellipse_27" data-name="Ellipse 27" cx="3" cy="3" r="3" transform="translate(5.553 11.672)" fill="#222"/>
+                          </g>
+                        </g>
+                      </svg>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="d-flex justify-content-md-end gap-2 gap-md-2 align-items-center">
+                    <div class="social-media-circle">
+                        <span class="badge rounded-circle new2 p-2 badge-lg badge-rounded-circle bg-primary-1 text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2152EA" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                              </svg>
+                        </span>
+                        
+                    </div>
+                    <div class="social-media-circle">
+                        <span class="badge rounded-circle new2 p-2 badge-lg badge-rounded-circle bg-primary-1 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2152EA" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                        </span>
+                    </div>
+                    <div class="social-media-circle">
+                        <span class="badge rounded-circle new2 p-2 badge-lg badge-rounded-circle bg-primary-1 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2152EA" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                          </svg>
+                        </span>
+                    </div>
+                    <div class="social-media-circle">
+                        <span class="badge rounded-circle new2 p-2 badge-lg badge-rounded-circle bg-primary-1 text-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2152EA" class="bi bi-google" viewBox="0 0 16 16">
+                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                          </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-30px mt-md-3">
+            <div class="col-12 col-md-5 order-1 order-md-0">
+                <div class="d-flex gap-2 copyright mt-2 mb-sm-2">
+                    <p class="text-dark">© Kithub. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-7 d-flex justify-content-end text-start text-md-end order-0 order-md-1">
+                    <div class="terms">
+                        <a href="" class="text-dark link me-4 mb-3 mb-md-0 d-block d-md-inline-block">Terms and conditions</a>
+                    </div>
+                    <div class="terms">
+                        <a href="" class="text-dark link me-4 mb-3 mb-md-0 d-block d-md-inline-block">Privacy Policy</a>
+                    </div>
+                    <div class="terms">
+                        <a href="" class="text-dark link me-6 mb-3 mb-md-0 d-block d-md-inline-block">Contact</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer> 
+<!-- FOOTER-SECTION -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+</body>
+</html>
